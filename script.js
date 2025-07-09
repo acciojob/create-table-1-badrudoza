@@ -9,5 +9,5 @@ function insert_Row() {
 	newcell2.textContent="New Cell2";	
 	newrow.appendChild(newcell2);
 	const table = document.getElementById("sampleTable");
-   table.insertBefore(newrow,table.firstChild);
+   table.insertBefore(newrow,table.rows[0]);
 }
